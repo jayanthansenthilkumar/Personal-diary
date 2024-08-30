@@ -1,7 +1,6 @@
 import sqlite3
 import bcrypt
 from datetime import datetime
-
 # Connect to SQLite database (or create it)
 conn = sqlite3.connect("personal_diary.db")
 cursor = conn.cursor()
